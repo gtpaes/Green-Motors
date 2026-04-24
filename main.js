@@ -431,6 +431,17 @@ window.addEventListener("load", () => {
     });
   }
   
+  /* ─── ABOUT FLIP CARD (touch/mobile) ─── */
+  const aboutFrame = document.querySelector(".about__frame");
+  if (aboutFrame) {
+    // No mobile, hover não funciona — usa clique/toque para virar o card
+    if (IS_MOBILE) {
+      aboutFrame.addEventListener("click", () => {
+        aboutFrame.classList.toggle("flipped");
+      });
+    }
+  }
+
   /* ─── SMOOTH ANCHOR SCROLL ─── */
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", e => {

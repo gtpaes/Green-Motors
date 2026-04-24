@@ -1531,6 +1531,29 @@ ul {
   width: 44px;
 }
 
+/* Flip por toque no mobile */
+@media (hover: none) {
+  /* Remove o flip por hover */
+  .about__visual:hover .about__frame {
+    transform: none;
+  }
+  /* Flip ativado por clique (classe JS) */
+  .about__frame.flipped {
+    transform: rotateY(180deg);
+  }
+  /* Hint sempre visível até virar */
+  .about__visual:hover .about__flip-hint {
+    opacity: 0.55;
+  }
+  .about__frame.flipped .about__flip-hint {
+    opacity: 0;
+  }
+  /* Card clicável */
+  .about__frame {
+    cursor: pointer;
+  }
+}
+
 /* ─── RESPONSIVE ─── */
 @media (max-width: 1200px) {
   .footer__grid {
