@@ -1,0 +1,684 @@
+[
+  {
+    "id": "bicicleta-v20-pro-750w-1",
+    "nome": "GREEN MOTORS BICICLETA V20 PRO - 750W",
+    "precoPix": "R$ 7.999,00",
+    "precoParcelado": "12x de R$ 758,64 ou até 24x de R$ 415,78",
+    "descricao": "Bicicleta elétrica fat tire 750W, câmbio Shimano 7v, display LCD NFC, autonomia 60 km.",
+    "descricaoCompleta": "Motor 750W de alta performance. Velocidade máxima de até 32 km/h. Bateria de lítio de alta durabilidade. Autonomia de até 60 km por carga. Suspensão dupla hidráulica. Freios hidráulicos dianteiro e traseiro. Pneus KENDA 20x4 (fat tire). Câmbio Shimano de 7 marchas. Display LCD colorido com NFC. Suporta até 150 kg.",
+    "autonomia": "60 km",
+    "velocidade": "32 km/h",
+    "categoria": "bicicleta elétrica",
+    "carregamento": "6 a 8 horas",
+    "capacidade": "150 kg",
+    "imagem": "/assets/Modelos/bicicleta-v20-pro-750w-2026-1_01.jpg",
+    "imagens": [
+      "/assets/Modelos/bicicleta-v20-pro-750w-2026-1_01.jpg",
+      "/assets/Modelos/bicicleta-v20-pro-750w-2026-1_11.jpg",
+      "/assets/Modelos/bicicleta-v20-pro-750w-2026-1_12.jpg",
+      "/assets/Modelos/bicicleta-v20-pro-750w-2026-1.jpg"
+    ]
+  },
+  {
+    "id": "bolin1970-800w-2",
+    "nome": "GREEN MOTORS BOLIN1970 800W",
+    "precoPix": "R$ 7.999,00",
+    "precoParcelado": "12x de R$ 758,64 ou até 24x de R$ 415,78",
+    "descricao": "Scooter elétrica estilo clássico, motor 800W, bateria 60V 20Ah removível, autonomia 40 km.",
+    "descricaoCompleta": "Motor 800W. Velocidade máxima de até 32 km/h. Bateria de lítio 60V 20Ah removível. Autonomia de até 40 km. Carregador bivolt 110/220V. Amortecedor duplo dianteiro. Suspensão traseira dupla. Freio a disco hidráulico. Rodas aro 10\" liga leve. Banco duplo. Farol full LED. Alarme antifurto. NFC. Suporta até 150 kg.",
+    "autonomia": "40 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "150 kg",
+    "imagem": "/assets/Modelos/bolin1970-800w-2026-2_04.jpg",
+    "imagens": [
+      "/assets/Modelos/bolin1970-800w-2026-2_04.jpg",
+      "/assets/Modelos/bolin1970-800w-2026-2_02.jpg",
+      "/assets/Modelos/bolin1970-800w-2026-2_05.jpg",
+      "/assets/Modelos/bolin1970-800w-2026-2_07.jpg"
+    ]
+  },
+  {
+    "id": "mia-1000w-3",
+    "nome": "GREEN MOTORS MIA 1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 475,90",
+    "descricao": "Scooter elétrica MIA 1000W, bateria 60V 20Ah, autonomia 60 km, carregamento 5-6h.",
+    "descricaoCompleta": "Motor 1000W. Velocidade máxima de até 32 km/h. Bateria de lítio 60V 20Ah. Autonomia de até 60 km. Carregador bivolt 110/220V. Tempo de carregamento de 5 a 6 horas. Amortecedor dianteiro e traseiro. Freio a disco dianteiro. Freio traseiro a tambor. Banco duplo. Painel digital. Alarme antifurto. Entrada USB. Compartimento embaixo do banco. Suporta até 150 kg.",
+    "autonomia": "60 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "5 a 6 horas",
+    "capacidade": "150 kg",
+    "imagem": "/assets/Modelos/mia-1000w-2026-3_02.jpg",
+    "imagens": [
+      "/assets/Modelos/mia-1000w-2026-3_02.jpg",
+      "/assets/Modelos/mia-1000w-2026-3_01.jpg",
+      "/assets/Modelos/mia-1000w-2026-3_07.jpg",
+      "/assets/Modelos/mia-1000w-2026-3_08.jpg"
+    ]
+  },
+  {
+    "id": "mia-1000w-4",
+    "nome": "GREEN MOTORS MIA 1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 475,90",
+    "descricao": "Scooter elétrica MIA 1000W, bateria 60V 20Ah, autonomia 60 km, carregamento 5-6h.",
+    "descricaoCompleta": "Motor 1000W. Velocidade máxima de até 32 km/h. Bateria de lítio 60V 20Ah. Autonomia de até 60 km. Tempo de carregamento de 5 a 6 horas. Suporta até 150 kg.",
+    "autonomia": "60 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "5 a 6 horas",
+    "capacidade": "150 kg",
+    "imagem": "/assets/Modelos/mia-1000w-2026-4_02.jpg",
+    "imagens": [
+      "/assets/Modelos/mia-1000w-2026-4_02.jpg",
+      "/assets/Modelos/mia-1000w-2026-4_01.jpg",
+      "/assets/Modelos/mia-1000w-2026-4_03.jpg",
+      "/assets/Modelos/mia-1000w-2026-4_04.jpg"
+    ]
+  },
+  {
+    "id": "mia-1000w-5",
+    "nome": "GREEN MOTORS MIA 1000W",
+    "precoPix": "R$ 9.499,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 467,76",
+    "descricao": "Scooter elétrica MIA 1000W, bateria 60V 20Ah, autonomia 60 km, carregamento 5-6h.",
+    "descricaoCompleta": "Motor 1000W. Velocidade máxima de até 32 km/h. Bateria de lítio 60V 20Ah. Autonomia de até 60 km. Tempo de carregamento de 5 a 6 horas. Suporta até 150 kg.",
+    "autonomia": "60 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "5 a 6 horas",
+    "capacidade": "150 kg",
+    "imagem": "/assets/Modelos/mia-1000w-2026-5_02.jpg",
+    "imagens": [
+      "/assets/Modelos/mia-1000w-2026-5_02.jpg",
+      "/assets/Modelos/mia-1000w-2026-5_01.jpg",
+      "/assets/Modelos/mia-1000w-2026-5_05.jpg",
+      "/assets/Modelos/mia-1000w-2026-5_07.jpg"
+    ]
+  },
+  {
+    "id": "mia-1000w-6",
+    "nome": "GREEN MOTORS MIA 1000W",
+    "precoPix": "R$ 9.499,00",
+    "precoParcelado": "12x de R$ 899,00 ou até 24x de R$ 493,75",
+    "descricao": "Scooter elétrica MIA 1000W, bateria 60V 20Ah, autonomia 60 km, carregamento 5-6h.",
+    "descricaoCompleta": "Motor 1000W. Velocidade máxima de até 32 km/h. Bateria de lítio 60V 20Ah. Autonomia de até 60 km. Tempo de carregamento de 5 a 6 horas. Suporta até 150 kg.",
+    "autonomia": "60 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "5 a 6 horas",
+    "capacidade": "150 kg",
+    "imagem": "/assets/Modelos/mia-1000w-2026-6.jpg",
+    "imagens": [
+      "/assets/Modelos/mia-1000w-2026-6.jpg",
+      "/assets/Modelos/mia-1000w-2026-6_05.jpg",
+      "/assets/Modelos/mia-1000w-2026-6_06.jpg",
+      "/assets/Modelos/mia-1000w-2026-6_07.jpg"
+   ]
+  },
+  {
+    "id": "mia-1000w-7",
+    "nome": "GREEN MOTORS MIA 1000W",
+    "precoPix": "R$ 9.499,00",
+    "precoParcelado": "12x de R$ 899,00 ou até 24x de R$ 493,75",
+    "descricao": "Scooter elétrica MIA 1000W, bateria 60V 20Ah, autonomia 60 km, carregamento 5-6h.",
+    "descricaoCompleta": "Motor 1000W. Velocidade máxima de até 32 km/h. Bateria de lítio 60V 20Ah. Autonomia de até 60 km. Tempo de carregamento de 5 a 6 horas. Suporta até 150 kg.",
+    "autonomia": "60 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "5 a 6 horas",
+    "capacidade": "150 kg",
+    "imagem": "/assets/Modelos/mia-1000w-2026-7_02.jpg",
+    "imagens": [
+      "/assets/Modelos/mia-1000w-2026-7_02.jpg",
+      "/assets/Modelos/mia-1000w-2026-7_01.jpg",
+      "/assets/Modelos/mia-1000w-2026-7_05.jpg",
+      "/assets/Modelos/mia-1000w-2026-7.jpg"
+    ]
+  },
+  {
+    "id": "mp-800w-8",
+    "nome": "GREEN MOTORS MP-800W",
+    "precoPix": "R$ 5.999,00",
+    "precoParcelado": "12x de R$ 568,96 ou até 24x de R$ 311,82",
+    "descricao": "Scooter elétrica MP 800W, bateria íon-lítio removível, autonomia 40 km, NFC, USB.",
+    "descricaoCompleta": "Motor 800W. Velocidade máxima de até 32 km/h. Bateria de Íon de lítio removível. Autonomia de até 40 km por carga. Carregador bivolt 110/220V. Farol em LED. Buzina elétrica. Painel digital. Alarme antifurto. Três níveis de velocidade. TAG de acionamento. Cartão NFC. Entrada USB. Suporte para celular. Suporta até 180 kg.",
+    "autonomia": "40 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "6 a 8 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/mp-800w-2026-8.jpg",
+    "imagens": [
+      "/assets/Modelos/mp-800w-2026-8.jpg",
+      "/assets/Modelos/mp-800w-2026-8_01.jpg",
+      "/assets/Modelos/mp-800w-2026-8_02.jpg",
+      "/assets/Modelos/mp-800w-2026-8_03.jpg"
+    ]
+  },
+  {
+    "id": "mp-800w-9",
+    "nome": "GREEN MOTORS MP-800W",
+    "precoPix": "R$ 5.999,00",
+    "precoParcelado": "12x de R$ 568,96 ou até 24x de R$ 311,82",
+    "descricao": "Scooter elétrica MP 800W, bateria íon-lítio removível, autonomia 40 km, NFC, USB.",
+    "descricaoCompleta": "Motor 800W. Velocidade de até 32 km/h. Autonomia de até 40 km. Suporta até 180 kg.",
+    "autonomia": "40 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "6 a 8 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/mp-800w-2026-9.jpg",
+    "imagens": [
+      "/assets/Modelos/mp-800w-2026-9.jpg",
+      "/assets/Modelos/mp-800w-2026-9_01.jpg",
+      "/assets/Modelos/mp-800w-2026-9_02.jpg",
+      "/assets/Modelos/mp-800w-2026-9_04.jpg"
+    ]
+  },
+  {
+    "id": "mp-800w-10",
+    "nome": "GREEN MOTORS MP-800W",
+    "precoPix": "R$ 5.999,00",
+    "precoParcelado": "12x de R$ 568,96 ou até 24x de R$ 311,82",
+    "descricao": "Scooter elétrica MP 800W, bateria íon-lítio removível, autonomia 40 km, NFC, USB.",
+    "descricaoCompleta": "Motor 800W. Velocidade de até 32 km/h. Autonomia de até 40 km. Suporta até 180 kg.",
+    "autonomia": "40 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "6 a 8 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/mp-800w-2026-10_02.jpg",
+    "imagens": [
+      "/assets/Modelos/mp-800w-2026-10_02.jpg",
+      "/assets/Modelos/mp-800w-2026-10_01.jpg",
+      "/assets/Modelos/mp-800w-2026-10_04.jpg",
+      "/assets/Modelos/mp-800w-2026-10_05.jpg"
+    ]
+  },
+  {
+    "id": "scooter-x12-harley-1000w-11",
+    "nome": "GREEN MOTORS SCOOTER X12 HARLEY - 1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 467,76",
+    "descricao": "Scooter estilo Harley 1000W, autonomia 50 km, Bluetooth, marcha ré, capacidade 200 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade máxima de até 32 km/h. Autonomia de até 50 km. Bateria de lítio protegida sob o banco. Carregador bivolt 110/220V. Tempo de carregamento de 4 a 6 horas. Suspensão dianteira e traseira. Freio a disco hidráulico. Farol em LED. Setas em LED sequenciais. Painel digital. Botão de marcha ré. Bluetooth. Entrada USB. Suporte para telefone. Suporta até 200 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "200 kg",
+    "imagem": "/assets/Modelos/scooter-x12-harley-1000w-2026-11.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-x12-harley-1000w-2026-11.jpg",
+      "/assets/Modelos/scooter-x12-harley-1000w-2026-11_01.jpg",
+      "/assets/Modelos/scooter-x12-harley-1000w-2026-11_02.jpg",
+      "/assets/Modelos/scooter-x12-harley-1000w-2026-11_05.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-dot-1000w-12",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA DOT- 1000W",
+    "precoPix": "R$ 9.499,00",
+    "precoParcelado": "12x de R$ 899,99 ou até 24x de R$ 493,75",
+    "descricao": "Scooter elétrica DOT 1000W, bateria 60V 20Ah removível, autonomia 50 km, NFC, 180 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade máxima de até 32 km/h. Bateria de lítio 60V 20Ah removível. Autonomia de até 50 km. Carregador bivolt 110/220V. Amortecedor duplo dianteiro. Suspensão traseira dupla. Freio a disco hidráulico. Banco duplo com encosto. Pedaleira em alumínio retrátil. Farol full LED. Painel digital. Três níveis de velocidade. Alarme antifurto. Pulseira NFC. Entrada USB. Suporta até 180 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "6 a 8 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-dot-1000w-2026-12.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-12.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-12_01.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-12_03.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-12_07.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-dot-1000w-13",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA DOT- 1000W",
+    "precoPix": "R$ 9.499,00",
+    "precoParcelado": "12x de R$ 899,99 ou até 24x de R$ 493,75",
+    "descricao": "Scooter elétrica DOT 1000W, bateria 60V 20Ah removível, autonomia 50 km, 180 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade de até 32 km/h. Autonomia de até 50 km. Suporta até 180 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "6 a 8 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-dot-1000w-2026-13_03.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-13_03.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-13_01.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-13_09.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-13.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-dot-1000w-14",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA DOT- 1000W",
+    "precoPix": "R$ 9.499,00",
+    "precoParcelado": "12x de R$ 899,99 ou até 24x de R$ 493,75",
+    "descricao": "Scooter elétrica DOT 1000W, bateria 60V 20Ah removível, autonomia 50 km, 180 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade de até 32 km/h. Autonomia de até 50 km. Suporta até 180 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "6 a 8 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-dot-1000w-2026-14_02.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-14_02.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-14_01.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-14_03.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-14_05.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-dot-1000w-15",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA DOT- 1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 467,76",
+    "descricao": "Scooter elétrica DOT 1000W, bateria 60V 20Ah removível, autonomia 50 km, 180 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade de até 32 km/h. Autonomia de até 50 km. Suporta até 180 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "6 a 8 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-dot-1000w-2026-15_01.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-15_01.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-15_02.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-15_03.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-15_04.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-dot-1000w-16",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA DOT- 1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 467,76",
+    "descricao": "Scooter elétrica DOT 1000W, bateria 60V 20Ah removível, autonomia 50 km, 180 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade de até 32 km/h. Autonomia de até 50 km. Suporta até 180 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "6 a 8 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-dot-1000w-2026-16.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-16.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-16_02.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-16_03.jpg",
+      "/assets/Modelos/scooter-eletrica-dot-1000w-2026-16_04.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-loulan-1000w-17",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA LOULAN -1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 467,76",
+    "descricao": "Scooter elétrica Loulan 1000W, pneu sem câmara aro 10\", autonomia 50 km, 180 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade máxima de até 32 km/h. Bateria de lítio 60V 20Ah removível. Autonomia de até 50 km. Carregador bivolt 110/220V. Amortecedor duplo dianteiro. Suspensão traseira dupla. Freio a disco hidráulico. Pneu New City sem câmara. Rodas aro 10\" em liga leve. Banco duplo. Pedaleira em alumínio retrátil. Farol full LED. Painel digital. Alarme antifurto. Suporta até 180 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": " 5 a 8 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-loulan-1000w-2026-17_02.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-loulan-1000w-2026-17_02.jpg",
+      "/assets/Modelos/scooter-eletrica-loulan-1000w-2026-17_03.jpg",
+      "/assets/Modelos/scooter-eletrica-loulan-1000w-2026-17_05.jpg",
+      "/assets/Modelos/scooter-eletrica-loulan-1000w-2026-17.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-loulan-1000w-18",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA LOULAN -1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 467,76",
+    "descricao": "Scooter elétrica Loulan 1000W, pneu sem câmara aro 10\", autonomia 50 km, 180 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade de até 32 km/h. Autonomia de até 50 km. Suporta até 180 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": " 5 a 8 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-loulan-1000w-2026-18_01.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-loulan-1000w-2026-18_01.jpg",
+      "/assets/Modelos/scooter-eletrica-loulan-1000w-2026-18_03.jpg",
+      "/assets/Modelos/scooter-eletrica-loulan-1000w-2026-18_06.jpg",
+      "/assets/Modelos/scooter-eletrica-loulan-1000w-2026-18.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x11-1000w-19",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 11 - 1000W",
+    "precoPix": "R$ 7.999,99",
+    "precoParcelado": "12x de R$ 758,64 ou até 24x de R$ 415,78",
+    "descricao": "Scooter elétrica X11 1000W, autonomia 50 km, marcha ré, NFC, isento de IPVA.",
+    "descricaoCompleta": "Não paga IPVA. Motor 1000W de alta performance. Autonomia de até 50 km por carga. Velocidade máxima de até 32 km/h. Tempo de recarga de 4 a 6 horas. Carregador bivolt 110/220V. Bateria removível. Farol full LED. Setas em LED. Amortecedores dianteiro e traseiro. Freios hidráulicos. Trava de segurança com alarme. Painel digital. Função marcha ré. Ligamento por cartão NFC. Suporta até 180 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-19_02.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-19_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-19_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-19_03.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-19_04.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x11-1000w-20",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 11 - 1000W",
+    "precoPix": "R$ 7.999,99",
+    "precoParcelado": "12x de R$ 758,64 ou até 24x de R$ 415,78",
+    "descricao": "Scooter elétrica X11 1000W, autonomia 50 km, marcha ré, NFC, isento de IPVA.",
+    "descricaoCompleta": "Motor 1000W. Autonomia de até 50 km. Velocidade de até 32 km/h. Recarga 4 a 6 horas. Suporta até 180 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-20_01.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-20_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-20_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-20_03.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-20.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x11-1000w-21",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 11 - 1000W",
+    "precoPix": "R$ 7.999,99",
+    "precoParcelado": "12x de R$ 758,64 ou até 24x de R$ 415,78",
+    "descricao": "Scooter elétrica X11 1000W, autonomia 50 km, marcha ré, NFC, isento de IPVA.",
+    "descricaoCompleta": "Motor 1000W. Autonomia de até 50 km. Velocidade de até 32 km/h. Recarga 4 a 6 horas. Suporta até 180 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-21.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-21.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-21_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-21_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-21_03.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x11-1000w-23",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 11 - 1000W",
+    "precoPix": "R$ 7.999,00",
+    "precoParcelado": "12x de R$ 758,64 ou até 24x de R$ 415,78",
+    "descricao": "Scooter elétrica X11 1000W, autonomia 50 km, marcha ré, NFC, isento de IPVA.",
+    "descricaoCompleta": "Motor 1000W. Autonomia de até 50 km. Velocidade de até 32 km/h. Recarga 4 a 6 horas. Suporta até 180 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-23_01.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-23_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-23_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-23_04.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-23.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x11-1000w-24",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 11 - 1000W",
+    "precoPix": "R$ 7.999,00",
+    "precoParcelado": "12x de R$ 758,64 ou até 24x de R$ 415,78",
+    "descricao": "Scooter elétrica X11 1000W, autonomia 50 km, marcha ré, NFC, isento de IPVA.",
+    "descricaoCompleta": "Motor 1000W. Autonomia de até 50 km. Velocidade de até 32 km/h. Recarga 4 a 6 horas. Suporta até 180 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "180 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-24_01.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-24_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-24_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-24_04.jpg",
+      "/assets/Modelos/scooter-eletrica-x-11-1000w-2026-24_07.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x12-1000w-25",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 12 - 1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 499,58",
+    "descricao": "Scooter elétrica X12 1000W, espaço para bateria reserva, autonomia 50 km, 200 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade máxima de até 32 km/h. Autonomia de até 50 km. Bateria de lítio protegida sob o banco. Espaço para bateria reserva. Carregador bivolt 110/220V. Tempo de carregamento de 4 a 6 horas. Suspensão dianteira e traseira. Freio a disco hidráulico. Farol em LED. Setas em LED sequenciais. Painel digital. Botão de marcha ré. Suporta até 200 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "200 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-12-1000w-2026-25.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-12-1000w-2026-25.jpg",
+      "/assets/Modelos/scooter-eletrica-x-12-1000w-2026-25_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-12-1000w-2026-25_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-12-1000w-2026-25_05.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x13-1000w-26",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 13 - 1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 499,58",
+    "descricao": "Scooter elétrica X13 1000W, espaço para bateria reserva, autonomia 50 km, 200 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade máxima de até 32 km/h. Autonomia de até 50 km. Bateria de lítio protegida sob o banco. Espaço para bateria reserva. Carregador bivolt 110/220V. Tempo de carregamento de 4 a 6 horas. Suspensão dianteira e traseira. Freio a disco hidráulico. Farol em LED. Setas em LED sequenciais. Painel digital. Botão de marcha ré. Suporta até 200 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "200 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-26.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-26.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-26_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-26_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-26_04.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x13-1000w-27",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 13 - 1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 499,58",
+    "descricao": "Scooter elétrica X13 1000W, espaço para bateria reserva, autonomia 50 km, 200 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade de até 32 km/h. Autonomia de até 50 km. Suporta até 200 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "200 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-27.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-27.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-27_04.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-27_07.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-27_08.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x13-1000w-28",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 13 - 1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 499,58",
+    "descricao": "Scooter elétrica X13 1000W, espaço para bateria reserva, autonomia 50 km, 200 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade de até 32 km/h. Autonomia de até 50 km. Suporta até 200 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "200 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-28.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-28.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-28_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-28_03.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-28_04.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x13-1000w-29",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 13 - 1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 499,58",
+    "descricao": "Scooter elétrica X13 1000W, espaço para bateria reserva, autonomia 50 km, 200 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade de até 32 km/h. Autonomia de até 50 km. Suporta até 200 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "200 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-29.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-29.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-29_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-29_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-29_03.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x13-1000w-30",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 13 - 1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 499,58",
+    "descricao": "Scooter elétrica X13 1000W, espaço para bateria reserva, autonomia 50 km, 200 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade de até 32 km/h. Autonomia de até 50 km. Suporta até 200 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "200 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-30.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-30.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-30_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-30_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-13-1000w-2026-30_03.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x14-1000w-31",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 14- 1000W",
+    "precoPix": "R$ 9.999,00",
+    "precoParcelado": "12x de R$ 948,00 ou até 24x de R$ 519,74",
+    "descricao": "Scooter elétrica X14 1000W, autonomia 45 km, trava antifurto, 200 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade máxima de até 32 km/h. Autonomia de até 45 km. Bateria de lítio protegida sob o banco. Espaço para bateria reserva. Carregador bivolt 110/220V. Tempo de carregamento de 4 a 6 horas. Suspensão dianteira e traseira. Freio a disco hidráulico. Farol em LED. Setas em LED sequenciais. Trava antifurto. Painel digital. Botão de marcha ré. Suporta até 200 kg.",
+    "autonomia": "45 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "200 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-31.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-31.jpg",
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-31_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-31_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-31_04.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x14-1000w-32",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 14- 1000W",
+    "precoPix": "R$ 9.999,00",
+    "precoParcelado": "12x de R$ 948,00 ou até 24x de R$ 519,74",
+    "descricao": "Scooter elétrica X14 1000W, autonomia 45 km, trava antifurto, 200 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade de até 32 km/h. Autonomia de até 45 km. Suporta até 200 kg.",
+    "autonomia": "45 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "200 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-32.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-32.jpg",
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-32_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-32_03.jpg",
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-32_05.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x14-1000w-33",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 14- 1000W",
+    "precoPix": "R$ 9.999,00",
+    "precoParcelado": "12x de R$ 948,00 ou até 24x de R$ 519,74",
+    "descricao": "Scooter elétrica X14 1000W, autonomia 45 km, trava antifurto, 200 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade de até 32 km/h. Autonomia de até 45 km. Suporta até 200 kg.",
+    "autonomia": "45 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "200 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-33.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-33.jpg",
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-33_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-33_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-33_05.jpg"
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x14-1000w-34",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X 14- 1000W",
+    "precoPix": "R$ 9.999,00",
+    "precoParcelado": "12x de R$ 948,00 ou até 24x de R$ 519,74",
+    "descricao": "Scooter elétrica X14 1000W, autonomia 45 km, trava antifurto, 200 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade de até 32 km/h. Autonomia de até 45 km. Suporta até 200 kg.",
+    "autonomia": "45 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "200 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-34_07.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-34_07.jpg",
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-34_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-34_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x-14-1000w-2026-34.jpg"
+      
+    ]
+  },
+  {
+    "id": "scooter-eletrica-x15-1000w-35",
+    "nome": "GREEN MOTORS SCOOTER ELÉTRICA X15- 1000W",
+    "precoPix": "R$ 8.999,00",
+    "precoParcelado": "12x de R$ 853,48 ou até 24x de R$ 467,76",
+    "descricao": "Scooter elétrica X15 1000W, Bluetooth, NFC, suporte celular, autonomia 50 km, 200 kg.",
+    "descricaoCompleta": "Motor 1000W. Velocidade máxima de até 32 km/h. Autonomia de até 50 km. Bateria de lítio protegida sob o banco. Carregador bivolt 110/220V. Tempo de carregamento de 4 a 6 horas. Suspensão dianteira e traseira. Freio a disco hidráulico. Farol em LED. Setas em LED sequenciais. Trava antifurto. Painel digital. Botão de marcha ré. Suporte para celular. Entrada USB. Som Bluetooth. Ligamento por cartão NFC. Suporta até 200 kg.",
+    "autonomia": "50 km",
+    "velocidade": "32 km/h",
+    "categoria": "autopropelido",
+    "carregamento": "4 a 6 horas",
+    "capacidade": "200 kg",
+    "imagem": "/assets/Modelos/scooter-eletrica-x15-1000w-2026-35.jpg",
+    "imagens": [
+      "/assets/Modelos/scooter-eletrica-x15-1000w-2026-35.jpg",
+      "/assets/Modelos/scooter-eletrica-x15-1000w-2026-35_01.jpg",
+      "/assets/Modelos/scooter-eletrica-x15-1000w-2026-35_02.jpg",
+      "/assets/Modelos/scooter-eletrica-x15-1000w-2026-35_03.jpg"
+
+    ]
+  }
+]

@@ -20,6 +20,7 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <!-- NAV -->
     <nav class="nav" id="nav">
@@ -34,8 +35,8 @@
         <li><a href="#modelos">Modelos</a></li>
         <li><a href="#beneficios">Benefícios</a></li>
         <li><a href="#sobre">Sobre</a></li>
-        <li><a href="produtos.html">Catálogo</a></li>
-        <li><a href="#contato" class="nav__cta">Comprar</a></li>
+        <li><a href="catalogo/catalogo.html">Catálogo</a></li>
+        <li><a href="#contato" class="nav__cta"><svg viewBox="0 0 24 24" class="nav-btn__arr-2" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg><span class="nav-btn__text">Comprar</span><span class="nav-btn__circle"></span><svg viewBox="0 0 24 24" class="nav-btn__arr-1" xmlns="http://www.w3.org/2000/svg"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></a></li>
       </ul>
       <button
         class="nav__burger"
@@ -58,7 +59,7 @@
           <li><a href="#modelos" class="mm-link">Modelos</a></li>
           <li><a href="#beneficios" class="mm-link">Benefícios</a></li>
           <li><a href="#sobre" class="mm-link">Sobre</a></li>
-          <li><a href="produtos.html" class="mm-link">Catálogo</a></li>
+          <li><a href="catalogo/catalogo.html" class="mm-link">Catálogo</a></li>
           <li><a href="#contato" class="mm-link mm-link--cta">Comprar</a></li>
         </ul>
       </nav>
@@ -76,7 +77,7 @@
             class="hero__video"
             id="heroVideo"
           >
-            <source src="assets/scooter (2).mp4" type="video/mp4" />
+            <source src="assets/video/scooter (2).mp4" type="video/mp4" />
           </video>
           <div class="hero__overlay"></div>
           <div class="hero__grain"></div>
@@ -118,47 +119,79 @@
       <div class="carousel" id="carousel">
         <div class="carousel__track">
           <div class="carousel__item">
-            <img src="assets/clientes (1).jpeg" alt="" />
+            <img src="assets/clientes/clientes (1).jpeg" alt="" />
             <div class="carousel__info">
-              <h3>Lucas Andrade</h3>
-              <p>"Nunca mais peguei trânsito do mesmo jeito."</p>
+              <h3>Isabelle</h3>
+              <p>"Já faz parte da família GreenMotors."</p>
             </div>
           </div>
 
           <div class="carousel__item">
-            <img src="assets/clientes (2).jpeg" alt="" />
+            <img src="assets/clientes/clientes (2).jpeg" alt="" />
             <div class="carousel__info">
-              <h3>Marina Souza</h3>
-              <p>"Silenciosa, forte e estilosa. Surreal."</p>
+              <h3>Bruno e Viviane</h3>
+              <p>
+                "Garantiram sua bolin de 800W para rodar com economia,
+                praticidade e estilo"
+              </p>
             </div>
           </div>
 
           <div class="carousel__item">
-            <img src="assets/clientes (3).jpeg" alt="" />
+            <img src="assets/clientes/clientes (3).jpeg" alt="" />
             <div class="carousel__info">
-              <h3>Rafael Costa</h3>
-              <p>"Economia absurda. Melhor compra que fiz."</p>
+              <h3>Maria</h3>
+              <p>"Cliente muito satisfeita na compra dessa Phantom 1000W"</p>
             </div>
           </div>
 
           <div class="carousel__item">
-            <img src="assets/clientes (4).jpeg" alt="" />
+            <img src="assets/clientes/clientes (4).jpeg" alt="" />
             <div class="carousel__info">
-              <h3>Fernanda Lima</h3>
-              <p>"Todo mundo pergunta que moto é essa."</p>
+              <h3>Ricardo</h3>
+              <p>"Levou a sua X11 para um conforto e liberdade no dia a dia"</p>
+            </div>
+          </div>
+
+          <div class="carousel__item">
+            <img src="assets/clientes/clientes (5).jpeg" alt="" />
+            <div class="carousel__info">
+              <h3>Raquel</h3>
+              <p>
+                "Já garantiu sua Scooter Elétrica X11 para mais economia e
+                praticidade"
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel__item">
+            <img src="assets/clientes/clientes (6).jpeg" alt="" />
+            <div class="carousel__info">
+              <h3>Teresa e Carlos</h3>
+              <p>"Scooter Elétrica M16 para o casal"</p>
+            </div>
+          </div>
+
+          <div class="carousel__item">
+            <img src="assets/clientes/clientes (7).jpeg" alt="" />
+            <div class="carousel__info">
+              <h3>André</h3>
+              <p>"Comprou duas X14 para o casal"</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    
+
     <!-- MODELOS  -->
     <section class="models" id="modelos">
       <div class="container">
         <div class="section-header" data-reveal>
-          <span class="section-tag">Linha 2025</span>
+          <span class="section-tag">GreenMotors</span>
           <h2 class="section-title">Escolha seu modelo.</h2>
-          <a href="produtos.html" class="section-header__link">
+          <a href="catalogo/catalogo.html" class="section-header__link">
             Ver catálogo completo
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
               <path
@@ -174,12 +207,15 @@
 
         <div class="models__showcase">
           <article class="model-card" data-reveal>
-            <div class="model-card__badge">Mais Vendido</div>
+            <div class="model-card__badge">1000W</div>
             <div class="model-card__img-wrap">
-              <img src="assets/Modelos/" class="model-card__img" />
+              <img
+                src="assets/Modelos/scooter-eletrica-dot-1000w-2026-12.jpg"
+                class="model-card__img"
+              />
             </div>
             <div class="model-card__info">
-              <h3>GreenMotors Urban</h3>
+              <h3>GreenMotors DOT</h3>
               <p>
                 Compacta, ágil e silenciosa. Feita para a rotina da cidade sem
                 abrir mão do charme.
@@ -187,22 +223,22 @@
               <div class="model-card__specs">
                 <span>80 km</span><span>45 km/h</span><span>Fat Tire</span>
               </div>
-              <a href="produtos.html" class="btn btn--outline">Ver Detalhes</a>
+              <a href="catalogo/produto.html?id=scooter-eletrica-dot-1000w-12" class="btn btn--outline"
+                >Ver Detalhes</a
+              >
             </div>
           </article>
 
           <article class="model-card model-card--featured" data-reveal>
-            <div class="model-card__badge model-card__badge--green">
-              Premium
-            </div>
+            <div class="model-card__badge model-card__badge--green">1000W</div>
             <div class="model-card__img-wrap">
               <img
-                src="assets/Modelos/SCOOTER ELÉTRICA X14 – 1000W  (1).jpeg"
+                src="assets/Modelos/scooter-eletrica-x-14-1000w-2026-33.jpg"
                 class="model-card__img"
               />
             </div>
             <div class="model-card__info">
-              <h3>GreenMotors Beast</h3>
+              <h3>GreenMotors X14</h3>
               <p>
                 A chopper elétrica que redefine o conceito de presença. Power e
                 brutalidade sustentável.
@@ -210,17 +246,22 @@
               <div class="model-card__specs">
                 <span>120 km</span><span>70 km/h</span><span>Chopper</span>
               </div>
-              <a href="produtos.html" class="btn btn--primary">Ver Detalhes</a>
+              <a href="catalogo/produto.html?id=scooter-eletrica-x14-1000w-33" class="btn btn--primary"
+                >Ver Detalhes</a
+              >
             </div>
           </article>
 
           <article class="model-card" data-reveal>
-            <div class="model-card__badge">Novo</div>
+            <div class="model-card__badge">1000W</div>
             <div class="model-card__img-wrap">
-              <img src="assets/Modelos" class="model-card__img" />
+              <img
+                src="assets/Modelos/mia-1000w-2026-7.jpg"
+                class="model-card__img"
+              />
             </div>
             <div class="model-card__info">
-              <h3>GreenMotors Cargo</h3>
+              <h3>GreenMotors MIA</h3>
               <p>
                 Para quem trabalha e não tolera paradas. Estrutura robusta,
                 bateria estendida e praticidade máxima.
@@ -228,7 +269,9 @@
               <div class="model-card__specs">
                 <span>100 km</span><span>55 km/h</span><span>Bagageiro</span>
               </div>
-              <a href="produtos.html" class="btn btn--outline">Ver Detalhes</a>
+              <a href="catalogo/produto.html?id=mia-1000w-7" class="btn btn--outline"
+                >Ver Detalhes</a
+              >
             </div>
           </article>
         </div>
@@ -237,6 +280,7 @@
 
     <!-- BENEFÍCIOS -->
     <section class="benefits" id="beneficios">
+      <div class="benefits__orb"></div>
       <div class="container">
         <div class="section-header" data-reveal>
           <span class="section-tag">Por que elétrico</span>
@@ -348,19 +392,40 @@
       </div>
     </section>
 
-    <!-- SOBRE -->
+     <!-- SOBRE -->
     <section class="about" id="sobre">
       <div class="container">
         <div class="about__grid">
           <div class="about__visual" data-reveal>
             <div class="about__frame">
-              <div class="about__frame-inner">
-                <img
-                  src="assets/loja-greenmotors.jpg"
-                  alt="Loja GreenMotors"
-                  loading="lazy"
-                />
+
+              <!-- FRENTE -->
+              <div class="about__frame-front">
+                <div class="about__frame-inner">
+                  <img
+                    src="assets/loja-greenmotors.jpg"
+                    alt="Loja GreenMotors Taquara"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- hint de flip -->
+                <div class="about__flip-hint">
+                  <svg viewBox="0 0 24 24"><path d="M1 4v6h6M23 20v-6h-6"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4-4.64 4.36A9 9 0 0 1 3.51 15"/></svg>
+                  Virar
+                </div>
               </div>
+
+              <!-- VERSO -->
+              <div class="about__frame-back">
+                <div class="about__frame-inner">
+                  <img
+                    src="assets/loja-greenmotor-valqueire.jpeg"
+                    alt="Loja GreenMotors — interior"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+
             </div>
             <div class="about__label">
               Fundada em 2025 · Rio de Janeiro, Brasil
@@ -380,9 +445,22 @@
               responsabilidade ambiental.
             </p>
             <div class="about__numbers">
-              <div><strong>2.400+</strong><span>Scooters entregues</span></div>
-              <div><strong>12</strong><span>Estados atendidos</span></div>
-              <div><strong>4.9</strong><span>Avaliação média</span></div>
+              <div>
+                <strong class="stat__num" data-count="2400" data-suffix="+"
+                  >0</strong
+                >
+                <span>Scooters entregues</span>
+              </div>
+
+              <div>
+                <strong class="stat__num" data-count="12">0</strong>
+                <span>Estados atendidos</span>
+              </div>
+
+              <div>
+                <strong class="stat__num" data-count="4.9">0</strong>
+                <span>Avaliação média</span>
+              </div>
             </div>
           </div>
         </div>
@@ -401,7 +479,7 @@
             modelo é perfeito para você.
           </p>
           <a
-            href="https://wa.me/5521982643738?text=Olá!%20Tenho%20interesse%20em%20uma%20scooter%20GreenMotors."
+            href="https://wa.me/5521983348942?text=Olá!%20Tenho%20interesse%20em%20uma%20scooter%20GreenMotors."
             target="_blank"
             rel="noopener"
             class="btn btn--primary btn--lg"
@@ -419,6 +497,7 @@
         </div>
       </div>
     </section>
+    
 
     <!-- FOOTER -->
     <footer class="footer">
@@ -459,7 +538,7 @@
                 </svg>
               </a>
               <a
-                href="https://wa.me/5521982643738"
+                href="https://wa.me/5521983348942"
                 target="_blank"
                 rel="noopener"
                 aria-label="WhatsApp"
@@ -470,10 +549,34 @@
                   />
                 </svg>
               </a>
-              <a href="https://www.facebook.com/GreenMotorsRJ/?ref=PROFILE_EDIT_xav_ig_profile_page_web#" target="_blank" rel="noopener" aria-label="Facebook">
+              <a
+                href="https://www.facebook.com/GreenMotorsRJ/?ref=PROFILE_EDIT_xav_ig_profile_page_web#"
+                target="_blank"
+                rel="noopener"
+                aria-label="Facebook"
+              >
                 <svg viewBox="0 0 24 24" fill="currentColor">
                   <path
                     d="M22 12a10 10 0 10-11.6 9.9v-7h-2.1v-2.9h2.1V9.8c0-2.1 1.2-3.3 3.2-3.3.9 0 1.9.2 1.9.2v2.1h-1.1c-1.1 0-1.5.7-1.5 1.4v1.7h2.6l-.4 2.9h-2.2v7A10 10 0 0022 12z"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="https://www.tiktok.com/@greenmotors.rj?is_from_webapp=1&sender_device=pc"
+                target="_blank"
+                rel="noopener"
+                aria-label="TikTok"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"
                   />
                 </svg>
               </a>
@@ -485,7 +588,7 @@
             <div id="map"></div>
             <div class="footer__addresses">
               <a
-                href="https://maps.google.com/?q=Est.+Rodrigues+Caldas+90+Taquara+Rio+de+Janeiro"
+                href="https://www.google.com/maps/place/Green+Motors+Rj/@-22.9227884,-43.3764231,17z/data=!3m1!4b1!4m6!3m5!1s0x9bd902ac596e05:0x2c8d69870c3904d6!8m2!3d-22.9227884!4d-43.3764231!16s%2Fg%2F11mt2y_ssc?hl=en&entry=ttu&g_ep=EgoyMDI2MDQyMS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener"
                 class="footer__address"
@@ -506,7 +609,7 @@
                 <span>Est. Rodrigues Caldas, 90 — Taquara, RJ</span>
               </a>
               <a
-                href="https://maps.google.com/?q=Est.+Intendente+Magalhães+800+Valqueire+Rio+de+Janeiro"
+                href="https://www.google.com/maps/place/Green+Motors+Vila+Valqueire/@-22.8777098,-43.3614144,19z/data=!3m1!4b1!4m6!3m5!1s0x99637b63f62217:0x8b0e4fd735855f21!8m2!3d-22.877711!4d-43.3607707!16s%2Fg%2F11z5_sb3gp?entry=ttu&g_ep=EgoyMDI2MDQyMS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener"
                 class="footer__address"
@@ -535,7 +638,7 @@
               <li><a href="#modelos">Modelos</a></li>
               <li><a href="#beneficios">Benefícios</a></li>
               <li><a href="#sobre">Sobre</a></li>
-              <li><a href="produtos.html">Catálogo</a></li>
+              <li><a href="catalogo/catalogo.html">Catálogo</a></li>
               <li><a href="#contato">Contato</a></li>
             </ul>
           </div>
@@ -543,9 +646,9 @@
           <div class="footer__links">
             <h4>Legal</h4>
             <ul>
-              <li><a href="privacidade.html">Política de Privacidade</a></li>
-              <li><a href="termos.html">Termos de Uso</a></li>
-              <li><a href="garantia.html">Garantia</a></li>
+              <li>
+                <a href="termos/privacidade.html">Política de Privacidade</a>
+              </li>
             </ul>
           </div>
         </div>

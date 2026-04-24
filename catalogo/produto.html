@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produto — GreenMotors</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    /* ─── TOKENS ─── */
+    :root {
+      --green:      #00ff88;
+      --green-dim:  rgba(0,255,136,0.12);
+      --green-glow: rgba(0,255,136,0.35);
+      --bg:         #050505;
+      --glass:      rgba(255,255,255,0.04);
+      --border:     rgba(255,255,255,0.08);
+      --text:       #fff;
+      --muted:      #71717a;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    a { text-decoration: none; color: inherit; }
+    button { font-family: inherit; cursor: pointer; }
+
+    /* ─── CANVAS BG ─── */
+    canvas {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    /* ─── HEADER ─── */
+    .header {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 20px 20px;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+    }
+
+    .logo { width: 58px; justify-self: center; }
+
+    .btn-back {
+      justify-self: start;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: var(--green);
+      color: #000;
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      padding: 9px 18px 9px 14px;
+      border: none;
+      border-radius: 30px;
+      box-shadow: 0 0 18px var(--green-glow);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .btn-back:hover {
+      transform: translateX(-3px);
+      box-shadow: 0 0 30px var(--green-glow);
+    }
+
+    /* ─── PAGE WRAPPER ─── */
+    .page {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 20px 20px 60px;
+    }
+
+    /* ─── PRODUTO LAYOUT ─── */
+    /* mobile: empilhado */
+    .produto {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    /* .produto-img-wrap substituído por .gallery */
+
+    /* ─── INFO COLUNA ─── */
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .info h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(20px, 4vw, 28px);
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .info-desc {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    /* ─── SPECS GRID ─── */
+    .specs-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .spec-item {
+      background: var(--glass);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .spec-label {
+      font-family: 'Syne', sans-serif;
+      font-size: 10px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .spec-value {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    /* ─── PRICE BOX ─── */
+    .price-box {
+      background: var(--glass);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .price-label {
+      font-family: 'Syne', sans-serif;
+      font-size: 10px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .price-pix {
+      font-family: 'Syne', sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--green);
+      line-height: 1;
+    }
+    .price-parcelado {
+      font-size: 13px;
+      color: var(--muted);
+      padding-top: 4px;
+      border-top: 1px solid var(--border);
+    }
+    .price-parcelado span { color: var(--text); }
+
+    /* ─── BOTÃO WPP ─── */
+    .btn-wpp {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: var(--green);
+      color: #000;
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      letter-spacing: .04em;
+      padding: 16px 28px;
+      border: none;
+      border-radius: 30px;
+      width: 100%;
+      box-shadow: 0 0 24px var(--green-glow);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .btn-wpp:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 40px var(--green-glow);
+    }
+    .btn-wpp svg { flex-shrink: 0; }
+
+    /* ─── BADGE CATEGORIA ─── */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      font-family: 'Syne', sans-serif;
+      font-size: 11px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--green);
+      background: var(--green-dim);
+      border: 1px solid rgba(0,255,136,0.25);
+      padding: 5px 12px;
+      border-radius: 20px;
+      width: fit-content;
+    }
+
+    /* ─── DIVIDER ─── */
+    .divider {
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ─── RESPONSIVIDADE ─── */
+
+    /* Tablet ≥ 768px */
+    @media (min-width: 768px) {
+      .specs-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    /* Desktop ≥ 1024px — lado a lado */
+    @media (min-width: 1024px) {
+      .produto {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 48px;
+      }
+
+      /* galeria controlada por .gallery */
+
+      .info { flex: 1; }
+
+      .specs-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    /* Wide ≥ 1200px */
+    @media (min-width: 1200px) {
+      .specs-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+
+    /* ─── GALLERY ─── */
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 100%;
+    }
+
+    /* Imagem principal */
+    .gallery-main {
+      width: 100%;
+      background: var(--glass);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+      aspect-ratio: 4/3;
+      position: relative;
+    }
+    .gallery-main img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      transition: opacity 0.25s ease, transform 0.35s ease;
+    }
+    .gallery-main img.switching {
+      opacity: 0;
+      transform: scale(0.97);
+    }
+
+    /* Miniaturas */
+    .gallery-thumbs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      padding-bottom: 2px;
+    }
+    .gallery-thumbs::-webkit-scrollbar { display: none; }
+
+    .thumb {
+      flex-shrink: 0;
+      width: 72px;
+      height: 72px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 2px solid var(--border);
+      background: var(--glass);
+      cursor: pointer;
+      transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+      padding: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      border-radius: 8px;
+      pointer-events: none;
+    }
+    .thumb:hover {
+      border-color: rgba(0,255,136,0.45);
+      transform: translateY(-2px);
+    }
+    .thumb.active {
+      border-color: var(--green);
+      box-shadow: 0 0 12px var(--green-glow);
+    }
+
+    /* Desktop: galeria lado a lado com info */
+    @media (min-width: 1024px) {
+      .gallery {
+        width: 480px;
+        flex-shrink: 0;
+      }
+      .gallery-main {
+        aspect-ratio: 1/1;
+      }
+      .thumb {
+        width: 80px;
+        height: 80px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .gallery { width: 520px; }
+    }
+
+    /* ─── ESTADO DE ERRO ─── */
+    .erro {
+      text-align: center;
+      padding: 80px 20px;
+      font-family: 'Syne', sans-serif;
+      color: var(--muted);
+    }
+    .erro strong { display: block; font-size: 22px; color: var(--text); margin-bottom: 8px; }
+  </style>
+</head>
+
+<body>
+  <canvas id="bg"></canvas>
+
+  <!-- HEADER -->
+  <div class="header">
+    <a id="btnBack" href="catalogo.html">
+      <button class="btn-back">
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+          <path d="M8.5 2L3.5 6.5L8.5 11" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Voltar
+      </button>
+    </a>
+
+    <img src="/assets/logo-greenmotors.png" class="logo" alt="GreenMotors">
+
+    <div></div><!-- spacer -->
+  </div>
+
+  <!-- CONTEÚDO DINÂMICO -->
+  <div class="page">
+    <div id="produto"></div>
+  </div>
+
+  <script>
+    /* ─── BOTÃO VOLTAR — mantém a página do catálogo ─── */
+    (function () {
+      const params = new URLSearchParams(window.location.search);
+      const page   = parseInt(params.get("page")) || 1;
+      document.getElementById("btnBack").href = `catalogo.html?page=${page}`;
+    })();
+
+    /* ─── CANVAS BG ─── */
+    const canvas = document.getElementById("bg");
+    const ctx    = canvas.getContext("2d");
+
+    function resizeCanvas() {
+      canvas.width  = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    resizeCanvas();
+    window.addEventListener("resize", resizeCanvas);
+
+    const particles = Array.from({ length: 60 }, () => ({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      r: Math.random() * 1.8 + 0.3,
+      d: Math.random() * 0.6 + 0.2,
+    }));
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = "rgba(0,255,136,0.45)";
+      particles.forEach(p => {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fill();
+        p.y += p.d;
+        if (p.y > canvas.height) { p.y = 0; p.x = Math.random() * canvas.width; }
+      });
+      requestAnimationFrame(draw);
+    }
+    draw();
+
+    /* ─── PRODUTO ─── */
+    const numero = "5521983348942";
+
+    async function carregarProduto() {
+      try {
+        const response = await fetch("produtos.json");
+        const produtos  = await response.json();
+
+        const params = new URLSearchParams(window.location.search);
+        const id     = params.get("id");
+        const p      = produtos.find(x => x.id === id);
+
+        if (!p) {
+          document.getElementById("produto").innerHTML = `
+            <div class="erro">
+              <strong>Produto não encontrado</strong>
+              Verifique o link ou volte ao catálogo.
+            </div>`;
+          return;
+        }
+
+        /* Resolve array de imagens — suporta campo "imagens" (array) ou "imagem" (string) */
+        const imagens = Array.isArray(p.imagens) && p.imagens.length > 0
+          ? p.imagens
+          : [p.imagem];
+
+        /* monta msg WPP */
+        const msg = encodeURIComponent(
+          `Olá! Quero comprar a ${p.nome}.\n\n` +
+          `💰 À vista: ${p.precoPix}\n` +
+          `💳 Parcelado: ${p.precoParcelado}\n\n` +
+          `Pode me dar mais detalhes?`
+        );
+
+        /* Gera miniaturas somente se houver mais de 1 foto */
+        const thumbsHTML = imagens.length > 1
+          ? `<div class="gallery-thumbs" id="thumbs">
+              ${imagens.map((src, i) => `
+                <div class="thumb ${i === 0 ? 'active' : ''}" data-index="${i}">
+                  <img src="${src}" alt="${p.nome} foto ${i + 1}">
+                </div>`).join("")}
+            </div>`
+          : "";
+
+        document.getElementById("produto").innerHTML = `
+          <div class="produto">
+
+            <!-- GALERIA -->
+            <div class="gallery">
+              <div class="gallery-main">
+                <img src="${imagens[0]}" alt="${p.nome}" id="mainImg">
+              </div>
+              ${thumbsHTML}
+            </div>
+
+            <!-- INFO -->
+            <div class="info">
+
+              ${p.categoria ? `<span class="badge">${p.categoria}</span>` : ""}
+
+              <h1>${p.nome}</h1>
+
+              <p class="info-desc">${p.descricaoCompleta || p.descricao}</p>
+
+              <div class="divider"></div>
+
+              <!-- SPECS -->
+              <div class="specs-grid">
+                <div class="spec-item">
+                  <span class="spec-label">Autonomia</span>
+                  <span class="spec-value">${p.autonomia}</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Velocidade</span>
+                  <span class="spec-value">${p.velocidade}</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Carregamento</span>
+                  <span class="spec-value">${p.carregamento}</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Capacidade</span>
+                  <span class="spec-value">${p.capacidade}</span>
+                </div>
+              </div>
+
+              <div class="divider"></div>
+
+              <!-- PREÇO -->
+              <div class="price-box">
+                <span class="price-label">Pix / à vista</span>
+                <span class="price-pix">${p.precoPix}</span>
+                <p class="price-parcelado">
+                  💳 Parcelado: <span>${p.precoParcelado}</span>
+                </p>
+              </div>
+
+              <!-- BOTÃO WPP -->
+              <a href="https://wa.me/${numero}?text=${msg}" target="_blank">
+                <button class="btn-wpp">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                  </svg>
+                  Comprar no WhatsApp
+                </button>
+              </a>
+
+            </div>
+          </div>`;
+
+        /* ── Lógica das miniaturas ── */
+        if (imagens.length > 1) {
+          const mainImg = document.getElementById("mainImg");
+          const thumbs  = document.querySelectorAll(".thumb");
+
+          thumbs.forEach(thumb => {
+            thumb.addEventListener("click", () => {
+              const idx = parseInt(thumb.dataset.index);
+
+              /* Atualiza active */
+              thumbs.forEach(t => t.classList.remove("active"));
+              thumb.classList.add("active");
+
+              /* Troca imagem com fade suave */
+              mainImg.classList.add("switching");
+              setTimeout(() => {
+                mainImg.src = imagens[idx];
+                mainImg.classList.remove("switching");
+              }, 200);
+            });
+          });
+        }
+
+      } catch (erro) {
+        console.error(erro);
+        document.getElementById("produto").innerHTML = `
+          <div class="erro">
+            <strong>Erro ao carregar produto</strong>
+            Tente novamente mais tarde.
+          </div>`;
+      }
+    }
+
+    carregarProduto();
+  </script>
+</body>
+</html>
