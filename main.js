@@ -46,7 +46,7 @@ window.addEventListener('beforeunload', () => window.scrollTo(0, 0));
 
 
   /* ─── ANIMAÇÕES ─── */
-  // Usamos window.onload para garantir que imagens e fontes carregaram antes de animar
+  // Usei window.onload para garantir que imagens e fontes carregaram antes de animar
   window.addEventListener("load", () => {
     document.documentElement.classList.add("js-loaded");
 
@@ -90,7 +90,7 @@ window.addEventListener('beforeunload', () => window.scrollTo(0, 0));
    document.body.appendChild(cursorDot);
    document.body.appendChild(cursorRing);
   
-   // Injetar CSS do cursor via JS para não precisar alterar style.css
+   // Injetar CSS do cursor via JS para não precisar alterar o style.css
    const cursorStyle = document.createElement("style");
    cursorStyle.textContent = `
      body { cursor: none !important; }
@@ -346,7 +346,7 @@ window.addEventListener("load", () => {
 
     ScrollTrigger.create({
       trigger: el,
-      start: "top 95%", // Só começa quando o elemento realmente aparecer no fundo da tela
+      start: "top 95%", 
       once: true,
       onEnter: () => {
        

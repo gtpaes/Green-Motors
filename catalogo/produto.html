@@ -371,7 +371,7 @@
       </button>
     </a>
 
-    <img src="/assets/logo-greenmotors.png" class="logo" alt="GreenMotors">
+    <img src="../assets/logo-greenmotors.png" class="logo" alt="GreenMotors">
 
     <div></div><!-- spacer -->
   </div>
@@ -442,10 +442,13 @@
           return;
         }
 
-        /* Resolve array de imagens — suporta campo "imagens" (array) ou "imagem" (string) */
-        const imagens = Array.isArray(p.imagens) && p.imagens.length > 0
+       
+        const rawImagens = Array.isArray(p.imagens) && p.imagens.length > 0
           ? p.imagens
           : [p.imagem];
+
+        /* Corrige caminhos do JSON: /assets/Modelos/... → Modelos/... */
+        const imagens = rawImagens.map(src => src.replace('/assets/Modelos/', 'Modelos/'));
 
         /* monta msg WPP */
         const msg = encodeURIComponent(
@@ -540,11 +543,11 @@
             thumb.addEventListener("click", () => {
               const idx = parseInt(thumb.dataset.index);
 
-              /* Atualiza active */
+              
               thumbs.forEach(t => t.classList.remove("active"));
               thumb.classList.add("active");
 
-              /* Troca imagem com fade suave */
+              
               mainImg.classList.add("switching");
               setTimeout(() => {
                 mainImg.src = imagens[idx];

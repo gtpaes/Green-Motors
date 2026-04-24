@@ -404,8 +404,6 @@ canvas {
     padding: 8px 20px 48px;
   }
  
-  /* mesma proporção 1fr/1fr/1fr do grid:
-     col 1 = vazio, col 2 = input (card central), col 3 = filtro (fim do último card) */
   .header-search {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0;
@@ -435,7 +433,7 @@ canvas {
 
   <!-- TOPO -->
   <div class="header-top">
-    <a href="/index.html">
+    <a href="../index.html">
       <button class="btn-back">
         <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
           <path d="M8.5 2L3.5 6.5L8.5 11" stroke="currentColor" stroke-width="2"
@@ -445,7 +443,7 @@ canvas {
       </button>
     </a>
 
-    <img src="/assets/logo-greenmotors.png" class="logo" alt="GreenMotors">
+    <img src="../assets/logo-greenmotors.png" class="logo" alt="GreenMotors">
 
     <div></div>
   </div>
@@ -570,7 +568,8 @@ function comprarWhatsApp(p) {
 
 /* ─── CARD  ── */
 function createCard(p) {
-  const img = p.imagens ? p.imagens[0] : p.imagem;
+  const rawImg = p.imagens ? p.imagens[0] : p.imagem;
+  const img = rawImg.replace('/assets/Modelos/', 'Modelos/');
   return `
   <div class="card">
     <div class="card-img-wrap">
