@@ -431,15 +431,14 @@ window.addEventListener("load", () => {
     });
   }
   
-  /* ─── ABOUT FLIP CARD (touch/mobile) ─── */
+  /* ─── ABOUT FLIP CARD ─── */
   const aboutFrame = document.querySelector(".about__frame");
-  if (aboutFrame) {
-    // No mobile, hover não funciona — usa clique/toque para virar o card
-    if (IS_MOBILE) {
-      aboutFrame.addEventListener("click", () => {
-        aboutFrame.classList.toggle("flipped");
-      });
-    }
+  if (aboutFrame && IS_MOBILE) {
+    // Desktop usa :hover no CSS com flip 3D real
+    // Mobile não tem hover — toque alterna a classe .flipped (fade/scale)
+    aboutFrame.addEventListener("click", () => {
+      aboutFrame.classList.toggle("flipped");
+    });
   }
 
   /* ─── SMOOTH ANCHOR SCROLL ─── */
