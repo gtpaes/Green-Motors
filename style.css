@@ -31,6 +31,11 @@
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none;
+}
+
 html {
   scroll-behavior: auto;
 }
@@ -43,6 +48,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  -ms-overflow-style: none;
 }
 
 body.menu-open {
@@ -508,6 +514,11 @@ ul {
   object-fit: cover;
   will-change: transform, opacity;
   transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
 }
 
 .hero__overlay {
